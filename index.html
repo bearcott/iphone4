@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Iphone 4 in CSS</title>
+	<style>
+body {
+	background: #222;
+	transition: all 200ms ease-in-out;
+}
+body.active {
+	background: #FCFCFC;
+}
+body.active h1 {
+	color: #333;
+}
+h6, h1 {
+	margin: 0;
+	font: .8em/.9 Calibri, sans-serif;
+}
+h1 {
+	font-size: 3em;
+	color: #fff;
+	margin-top: 10px;
+}
+div {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin: 120px 0 0 -100px;
+	text-align: center;
+	color: #777;
+}
+
+
+
+
+
+i.iphone { /*IPHONE BITCHESS!!*/
+	background-color: #111; /*put an image here if you'd like */
+	background-image: 
+		linear-gradient(70deg, transparent 65%, rgba(255,255,255,0.2)50%),
+		linear-gradient(90deg, #000 3%, transparent 3%),
+		linear-gradient(-90deg, #000 3%, transparent 3%),
+		linear-gradient(#000 16%, transparent 16%),
+		linear-gradient(transparent 84%, #000 84%),
+		linear-gradient(180deg, #eee 5%, transparent 5%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin: -110px 0 0 -60px;
+	width: 120px;
+	height: 220px;
+	border-radius: 15px;
+	border: 1px solid #EEE;
+	display: block;
+	z-index: 9001 /*ITS OVER 9000!!!..... */;
+	transition: all 200ms ease-in-out;
+}
+i.iphone:before {
+	content: "";
+	background: transparent linear-gradient(50deg, #222 20%, transparent 50%);
+	position: absolute;
+	bottom: 9px;
+	left: 50%;
+	margin: 0 -10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+}
+i.iphone:after {
+	content: "o";
+	position: absolute;
+	bottom: 28px;
+	left: 50%;
+	margin: 0 -5px;
+	width: 2px;
+	height: 3px;
+	color: #555;
+	font: 20px/1 Consolas, Aldrich;
+	border-radius: 2px;
+	box-shadow:
+		/*camera*/
+		-15px -169px 0 #385779,
+		-16px -169px 0 #385779,
+		-14px -168px 0 #555,
+		-15px -168px 0 #555,
+		-16px -168px 0 #555,
+		-17px -170px 0 #333,
+		-16px -170px 0 #333,
+		-15px -170px 0 #333,
+
+		/*grill*/
+		-4px -168px 0 #555,
+		-3px -168px 0 #555,
+		-2px -168px 0 #555,
+		-1px -168px 0 #555,
+		0px -168px 0 #555,
+		1px -168px 0 #555,
+		2px -168px 0 #555,
+		3px -168px 0 #555,
+		4px -168px 0 #555,
+		5px -168px 0 #555,
+		6px -168px 0 #555,
+		7px -168px 0 #555,
+		8px -168px 0 #555,
+		9px -168px 0 #555,
+		10px -168px 0 #555,
+		11px -168px 0 #555,
+		12px -168px 0 #555,
+		13px -168px 0 #555,
+		14px -168px 0 #555,
+
+
+		-5px -169px 0 #333,
+		15px -169px 0 #333,
+
+		-4px -170px 0 #333,
+		-3px -170px 0 #333,
+		-2px -170px 0 #333,
+		-1px -170px 0 #333,
+		0px -170px 0 #333,
+		1px -170px 0 #333,
+		2px -170px 0 #333,
+		3px -170px 0 #333,
+		4px -170px 0 #333,
+		5px -170px 0 #333,
+		6px -170px 0 #333,
+		7px -170px 0 #333,
+		8px -170px 0 #333,
+		9px -170px 0 #333,
+		10px -170px 0 #333,
+		11px -170px 0 #333,
+		12px -170px 0 #333,
+		13px -170px 0 #333,
+		14px -170px 0 #333,
+
+		/*speaker*/
+		2px -177px 0 #555,
+		3px -177px 0 #555,
+		4px -177px 0 #555,
+		5px -177px 0 #555,
+		6px -177px 0 #555,
+		7px -177px 0 #555,
+		8px -177px 0 #555,
+
+		/*power button*/
+		31px -193px 0 #999,
+		32px -193px 0 #999,
+		33px -193px 0 #999,
+		34px -193px 0 #999,
+		35px -193px 0 #999,
+		36px -193px 0 #999,
+		37px -193px 0 #999,
+		38px -193px 0 #999,
+		39px -193px 0 #999,
+		40px -193px 0 #999,
+		41px -193px 0 #999,
+		42px -193px 0 #999,
+		43px -193px 0 #999,
+		44px -193px 0 #999,
+		45px -193px 0 #999,
+		46px -193px 0 #999,
+
+		/*spacers*/
+		-57px -175px 0 #555,
+		-57px 10px 0 #555,
+		65px -175px 0 #555,
+		65px 10px 0 #555,
+
+		/*volume buttons*/
+		-58px -158px 0 #999,
+		-58px -160px 0 #999,
+		-58px -162px 0 #999,
+		-58px -164px 0 #DDD,
+
+		-58px -140px 0 #999,
+		-58px -142px 0 #999,
+		-58px -144px 0 #DDD,
+
+		-58px -126px 0 #999,
+		-58px -128px 0 #999,
+		-58px -130px 0 #DDD;
+}
+i:hover {
+	top: 49%;
+	cursor: pointer;
+}
+	</style>
+</head>
+<body>
+	<i id="iphone" class="iphone"></i>
+
+	<div>
+	  <h6>hey look. wow. it's an</h6>
+	  <h1>iPhone 4</h1>
+	</div>
+
+	<script>
+		(function() {
+			var iphone = document.getElementById('iphone');
+			var active = false;
+			iphone.addEventListener('click', function() {
+				if (!active) {
+			    	iphone.style.backgroundColor = "hsl(" + Math.random()*100 + ",100%,50%)";
+			    	document.body.className = "active";
+			    	active = true;
+			    } else {
+			    	document.body.className = "";
+			    	iphone.style.backgroundColor = "#111";
+			    	active = false;
+			    }
+			}, false);
+
+		})();
+	</script>
+</body>
+</html>
